@@ -1,0 +1,201 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine"
+
+
+
+</head>
+
+
+<script>
+
+  function calc1 () {
+    var pr=document.getElementById("p1-b1").value ;
+ 
+    var totala= pr*15;
+    document.getElementById("p1-b2").value= totala ;
+    }
+
+    function calc2 () {
+    var pr=document.getElementById("p2-b1").value ;
+ 
+    var totala= pr*20;
+    document.getElementById("p2-b2").value= totala ;
+    }
+
+    function calc3 () {
+    var pr=document.getElementById("p3-b1").value ;
+ 
+    var totala= pr*34;
+    document.getElementById("p3-b2").value= totala ;
+    }
+
+    function calc4 () {
+    var pr=document.getElementById("p4-b1").value ;
+ 
+    var totala= pr*36;
+    document.getElementById("p4-b2").value= totala ;
+    }
+  
+</script>
+<body>
+    
+    
+  <nav class="menu">
+    <div id="logo" >
+    <img class="mylogo" src="logo.png" alt=""></div>
+    
+    
+    <ul>
+    <li class="iteam" > <a href="home.html">home</a> </li>
+    <li class="iteam"><a href="phone.html" >phone</a ></li>
+    <li class="iteam"><a href="hardwarephone.html" >hardware phone</a ></li>
+     
+    
+    <li class="iteam"><a href="signup.html"  >sing in </a > </li>
+    
+    </ul>
+    
+    
+    </nav>
+
+
+<section><h1>hasmza</h1></section>
+
+<div id="master">
+
+  
+
+
+<div class="masterbox">
+<div class="box1">
+            
+    <img class="screen-box1" src="screen 1.png"/>
+    <img class="screen-box1" src="screen-2.png"/>
+  <div class="box-sles1">
+    <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ; color:bisque; ">    Quantity </em>:<select id="p1-b1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      </select>
+    <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ; color:bisque; ">   price :</em> <input type="text" id="p1-b2"  >
+     
+<button onclick="calc1 ()" class="priceclalate-box">calculate </button>
+    </div>
+  </div>
+
+  <div class="box2">
+
+    <img class="mice1-box2" src="mice-1.png"/>
+    <img class="mice1-box2" src="mice-2.png"/>
+
+    <div class="box-sles2">
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ; color:bisque; ">    Quantity </em>:<select id="p2-b1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        </select>
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;  color:bisque;">   price :</em> <input type="text" id="p2-b2"  >
+       
+  <button onclick="calc2 ()" class="priceclalate-box">calculate </button>
+      </div>
+
+
+
+  </div>
+
+  <div class="box3">
+
+   <img src="fast.png" class="fast">
+    
+    <div class="box-sles3">
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ; color:bisque; ">    Quantity </em>:<select id="p3-b1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        </select>
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;  color:bisque;">   price :</em> <input type="text" id="p3-b2"  >
+       
+  <button onclick="calc3 ()" class="priceclalate-box">calculate </button>
+      </div>
+
+
+  </div>
+
+  <div class="box4">
+
+
+    <img src="cmera.png" class="cmera">
+
+
+    <div class="box-sles4">
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ; color:bisque; ">    Quantity </em>:<select id="p4-b1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        </select>
+      <em style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;  color:bisque;">   price :</em> <input type="text" id="p4-b2"  >
+       
+  <button onclick="calc4 ()" class="priceclalate-box">calculate </button>
+      </div>
+
+
+  </div>
+
+  
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
